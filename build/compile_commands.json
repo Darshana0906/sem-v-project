@@ -16,5 +16,59 @@
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/mainwindow.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/mainwindow.cpp\"",
   "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/mainwindow.cpp",
   "output": "CMakeFiles/DLDSimulator.dir/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/Gate.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/Gate.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/AndGate.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/AndGate.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/OrGate.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/OrGate.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NotGate.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NotGate.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NandGate.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NandGate.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NorGate.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NorGate.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XorGate.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XorGate.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XnorGate.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XnorGate.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o"
+},
+{
+  "directory": "/home/darshana-kulkarni/TY Project/DLDSimulator/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I\"/home/darshana-kulkarni/TY Project/DLDSimulator/build/DLDSimulator_autogen/include\" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -std=gnu++17 -fPIC -o CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o -c \"/home/darshana-kulkarni/TY Project/DLDSimulator/Pin/Pin.cpp\"",
+  "file": "/home/darshana-kulkarni/TY Project/DLDSimulator/Pin/Pin.cpp",
+  "output": "CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o"
 }
 ]

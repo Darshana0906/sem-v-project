@@ -118,11 +118,146 @@ CMakeFiles/DLDSimulator.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/mainwindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/mainwindow.cpp" -o CMakeFiles/DLDSimulator.dir/mainwindow.cpp.s
 
+CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/Gate.cpp
+CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o -MF CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o.d -o CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/Gate.cpp"
+
+CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/Gate.cpp" > CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.i
+
+CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/Gate.cpp" -o CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.s
+
+CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/AndGate.cpp
+CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o -MF CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o.d -o CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/AndGate.cpp"
+
+CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/AndGate.cpp" > CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.i
+
+CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/AndGate.cpp" -o CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.s
+
+CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/OrGate.cpp
+CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o -MF CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o.d -o CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/OrGate.cpp"
+
+CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/OrGate.cpp" > CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.i
+
+CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/OrGate.cpp" -o CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.s
+
+CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NotGate.cpp
+CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o -MF CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o.d -o CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NotGate.cpp"
+
+CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NotGate.cpp" > CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.i
+
+CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NotGate.cpp" -o CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.s
+
+CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NandGate.cpp
+CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o -MF CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o.d -o CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NandGate.cpp"
+
+CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NandGate.cpp" > CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.i
+
+CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NandGate.cpp" -o CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.s
+
+CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NorGate.cpp
+CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o -MF CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o.d -o CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NorGate.cpp"
+
+CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NorGate.cpp" > CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.i
+
+CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NorGate.cpp" -o CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.s
+
+CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/XorGate.cpp
+CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o -MF CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o.d -o CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XorGate.cpp"
+
+CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XorGate.cpp" > CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.i
+
+CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XorGate.cpp" -o CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.s
+
+CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/XnorGate.cpp
+CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o -MF CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o.d -o CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XnorGate.cpp"
+
+CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XnorGate.cpp" > CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.i
+
+CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XnorGate.cpp" -o CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.s
+
+CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o: CMakeFiles/DLDSimulator.dir/flags.make
+CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o: /home/darshana-kulkarni/TY\ Project/DLDSimulator/Pin/Pin.cpp
+CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o: CMakeFiles/DLDSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o -MF CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o.d -o CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o -c "/home/darshana-kulkarni/TY Project/DLDSimulator/Pin/Pin.cpp"
+
+CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/darshana-kulkarni/TY Project/DLDSimulator/Pin/Pin.cpp" > CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.i
+
+CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/darshana-kulkarni/TY Project/DLDSimulator/Pin/Pin.cpp" -o CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.s
+
 # Object files for target DLDSimulator
 DLDSimulator_OBJECTS = \
 "CMakeFiles/DLDSimulator.dir/DLDSimulator_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/DLDSimulator.dir/main.cpp.o" \
-"CMakeFiles/DLDSimulator.dir/mainwindow.cpp.o"
+"CMakeFiles/DLDSimulator.dir/mainwindow.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o" \
+"CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o"
 
 # External object files for target DLDSimulator
 DLDSimulator_EXTERNAL_OBJECTS =
@@ -130,6 +265,15 @@ DLDSimulator_EXTERNAL_OBJECTS =
 DLDSimulator: CMakeFiles/DLDSimulator.dir/DLDSimulator_autogen/mocs_compilation.cpp.o
 DLDSimulator: CMakeFiles/DLDSimulator.dir/main.cpp.o
 DLDSimulator: CMakeFiles/DLDSimulator.dir/mainwindow.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o
+DLDSimulator: CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o
 DLDSimulator: CMakeFiles/DLDSimulator.dir/build.make
 DLDSimulator: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 DLDSimulator: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
@@ -137,7 +281,7 @@ DLDSimulator: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 DLDSimulator: /usr/lib/x86_64-linux-gnu/libGLX.so
 DLDSimulator: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 DLDSimulator: CMakeFiles/DLDSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DLDSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable DLDSimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DLDSimulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

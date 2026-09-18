@@ -33,6 +33,8 @@ set(PROJECT_SOURCES
         gates/XorGate.cpp
         gates/XnorGate.h
         gates/XnorGate.cpp
+        Pin/Pin.cpp
+        Pin/Pin.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

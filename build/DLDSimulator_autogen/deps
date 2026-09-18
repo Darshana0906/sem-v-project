@@ -1,8 +1,26 @@
 DLDSimulator_autogen/timestamp: \
 	/home/darshana-kulkarni/TY\ Project/DLDSimulator/CMakeLists.txt \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/Pin/Pin.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/Pin/Pin.h \
 	/home/darshana-kulkarni/TY\ Project/DLDSimulator/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/darshana-kulkarni/TY\ Project/DLDSimulator/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/darshana-kulkarni/TY\ Project/DLDSimulator/build/DLDSimulator_autogen/moc_predefs.h \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/AndGate.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/AndGate.h \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/Gate.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/Gate.h \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NandGate.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NandGate.h \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NorGate.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NorGate.h \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NotGate.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NotGate.h \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/OrGate.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/OrGate.h \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/XnorGate.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/XnorGate.h \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/XorGate.cpp \
+	/home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/XorGate.h \
 	/home/darshana-kulkarni/TY\ Project/DLDSimulator/main.cpp \
 	/home/darshana-kulkarni/TY\ Project/DLDSimulator/mainwindow.cpp \
 	/home/darshana-kulkarni/TY\ Project/DLDSimulator/mainwindow.h \

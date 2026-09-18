@@ -372,7 +372,19 @@ CMakeFiles/DLDSimulator.dir/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstatusbar.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
+ /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/AndGate.h \
+ /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/Gate.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsItem \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainterPath \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
+ /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/OrGate.h \
+ /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NotGate.h \
+ /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NandGate.h \
+ /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/NorGate.h \
+ /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/XorGate.h \
+ /home/darshana-kulkarni/TY\ Project/DLDSimulator/gates/XnorGate.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QToolBar \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtoolbar.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QAction

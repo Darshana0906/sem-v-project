@@ -28,6 +28,7 @@ public:
     QAction *actionOR;
     QAction *actionNAND;
     QAction *actionNOR;
+    QAction *actionwire;
     QWidget *centralwidget;
     QGraphicsView *graphicsView;
     QMenuBar *menubar;
@@ -37,7 +38,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(1211, 841);
+        MainWindow->resize(1243, 800);
         actionAND = new QAction(MainWindow);
         actionAND->setObjectName("actionAND");
         actionNOT = new QAction(MainWindow);
@@ -48,15 +49,17 @@ public:
         actionNAND->setObjectName("actionNAND");
         actionNOR = new QAction(MainWindow);
         actionNOR->setObjectName("actionNOR");
+        actionwire = new QAction(MainWindow);
+        actionwire->setObjectName("actionwire");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         graphicsView = new QGraphicsView(centralwidget);
         graphicsView->setObjectName("graphicsView");
-        graphicsView->setGeometry(QRect(0, 0, 1221, 831));
+        graphicsView->setGeometry(QRect(0, 0, 1311, 801));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1211, 24));
+        menubar->setGeometry(QRect(0, 0, 1243, 24));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -75,6 +78,7 @@ public:
         actionOR->setText(QCoreApplication::translate("MainWindow", "OR", nullptr));
         actionNAND->setText(QCoreApplication::translate("MainWindow", "NAND", nullptr));
         actionNOR->setText(QCoreApplication::translate("MainWindow", "NOR", nullptr));
+        actionwire->setText(QCoreApplication::translate("MainWindow", "wire", nullptr));
     } // retranslateUi
 
 };

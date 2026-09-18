@@ -205,6 +205,60 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/Pin/Pin.h",
+			"MU",
+			"E6OPBRGBMR/moc_Pin.cpp",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/AndGate.h",
+			"MU",
+			"XEUTLLPP5L/moc_AndGate.cpp",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/Gate.h",
+			"MU",
+			"XEUTLLPP5L/moc_Gate.cpp",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NandGate.h",
+			"MU",
+			"XEUTLLPP5L/moc_NandGate.cpp",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NorGate.h",
+			"MU",
+			"XEUTLLPP5L/moc_NorGate.cpp",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NotGate.h",
+			"MU",
+			"XEUTLLPP5L/moc_NotGate.cpp",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/OrGate.h",
+			"MU",
+			"XEUTLLPP5L/moc_OrGate.cpp",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XnorGate.h",
+			"MU",
+			"XEUTLLPP5L/moc_XnorGate.cpp",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XorGate.h",
+			"MU",
+			"XEUTLLPP5L/moc_XorGate.cpp",
+			null
+		],
+		[
 			"/home/darshana-kulkarni/TY Project/DLDSimulator/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -269,6 +323,51 @@
 	"SETTINGS_FILE" : "/home/darshana-kulkarni/TY Project/DLDSimulator/build/CMakeFiles/DLDSimulator_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/Pin/Pin.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/AndGate.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/Gate.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NandGate.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NorGate.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/NotGate.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/OrGate.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XnorGate.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/darshana-kulkarni/TY Project/DLDSimulator/gates/XorGate.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/darshana-kulkarni/TY Project/DLDSimulator/main.cpp",
 			"MU",

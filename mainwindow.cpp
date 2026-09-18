@@ -34,6 +34,7 @@ MainWindow::MainWindow(QWidget *parent)
     QAction *norAction = toolbar->addAction("NOR");
     QAction *xorAction = toolbar->addAction("XOR");
     QAction *xnorAction = toolbar->addAction("XNOR");
+    QAction *wireAction = toolbar->addAction("Wire");
 
     //connections
     connect(andAction, &QAction::triggered, this, [this]() {
@@ -70,6 +71,8 @@ MainWindow::MainWindow(QWidget *parent)
     XnorGate *gate = new XnorGate();
     gate->setPos(300, 200);
     scene->addItem(gate);});
+
+    
     
 }
 

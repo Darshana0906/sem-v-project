@@ -224,6 +224,222 @@ DLDSimulator_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/DLDSimulator_autogen/mocs_compilation.cpp.s
 .PHONY : DLDSimulator_autogen/mocs_compilation.cpp.s
 
+Pin/Pin.o: Pin/Pin.cpp.o
+.PHONY : Pin/Pin.o
+
+# target to build an object file
+Pin/Pin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.o
+.PHONY : Pin/Pin.cpp.o
+
+Pin/Pin.i: Pin/Pin.cpp.i
+.PHONY : Pin/Pin.i
+
+# target to preprocess a source file
+Pin/Pin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.i
+.PHONY : Pin/Pin.cpp.i
+
+Pin/Pin.s: Pin/Pin.cpp.s
+.PHONY : Pin/Pin.s
+
+# target to generate assembly for a file
+Pin/Pin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/Pin/Pin.cpp.s
+.PHONY : Pin/Pin.cpp.s
+
+gates/AndGate.o: gates/AndGate.cpp.o
+.PHONY : gates/AndGate.o
+
+# target to build an object file
+gates/AndGate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.o
+.PHONY : gates/AndGate.cpp.o
+
+gates/AndGate.i: gates/AndGate.cpp.i
+.PHONY : gates/AndGate.i
+
+# target to preprocess a source file
+gates/AndGate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.i
+.PHONY : gates/AndGate.cpp.i
+
+gates/AndGate.s: gates/AndGate.cpp.s
+.PHONY : gates/AndGate.s
+
+# target to generate assembly for a file
+gates/AndGate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/AndGate.cpp.s
+.PHONY : gates/AndGate.cpp.s
+
+gates/Gate.o: gates/Gate.cpp.o
+.PHONY : gates/Gate.o
+
+# target to build an object file
+gates/Gate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.o
+.PHONY : gates/Gate.cpp.o
+
+gates/Gate.i: gates/Gate.cpp.i
+.PHONY : gates/Gate.i
+
+# target to preprocess a source file
+gates/Gate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.i
+.PHONY : gates/Gate.cpp.i
+
+gates/Gate.s: gates/Gate.cpp.s
+.PHONY : gates/Gate.s
+
+# target to generate assembly for a file
+gates/Gate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/Gate.cpp.s
+.PHONY : gates/Gate.cpp.s
+
+gates/NandGate.o: gates/NandGate.cpp.o
+.PHONY : gates/NandGate.o
+
+# target to build an object file
+gates/NandGate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.o
+.PHONY : gates/NandGate.cpp.o
+
+gates/NandGate.i: gates/NandGate.cpp.i
+.PHONY : gates/NandGate.i
+
+# target to preprocess a source file
+gates/NandGate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.i
+.PHONY : gates/NandGate.cpp.i
+
+gates/NandGate.s: gates/NandGate.cpp.s
+.PHONY : gates/NandGate.s
+
+# target to generate assembly for a file
+gates/NandGate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NandGate.cpp.s
+.PHONY : gates/NandGate.cpp.s
+
+gates/NorGate.o: gates/NorGate.cpp.o
+.PHONY : gates/NorGate.o
+
+# target to build an object file
+gates/NorGate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.o
+.PHONY : gates/NorGate.cpp.o
+
+gates/NorGate.i: gates/NorGate.cpp.i
+.PHONY : gates/NorGate.i
+
+# target to preprocess a source file
+gates/NorGate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.i
+.PHONY : gates/NorGate.cpp.i
+
+gates/NorGate.s: gates/NorGate.cpp.s
+.PHONY : gates/NorGate.s
+
+# target to generate assembly for a file
+gates/NorGate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NorGate.cpp.s
+.PHONY : gates/NorGate.cpp.s
+
+gates/NotGate.o: gates/NotGate.cpp.o
+.PHONY : gates/NotGate.o
+
+# target to build an object file
+gates/NotGate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.o
+.PHONY : gates/NotGate.cpp.o
+
+gates/NotGate.i: gates/NotGate.cpp.i
+.PHONY : gates/NotGate.i
+
+# target to preprocess a source file
+gates/NotGate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.i
+.PHONY : gates/NotGate.cpp.i
+
+gates/NotGate.s: gates/NotGate.cpp.s
+.PHONY : gates/NotGate.s
+
+# target to generate assembly for a file
+gates/NotGate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/NotGate.cpp.s
+.PHONY : gates/NotGate.cpp.s
+
+gates/OrGate.o: gates/OrGate.cpp.o
+.PHONY : gates/OrGate.o
+
+# target to build an object file
+gates/OrGate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.o
+.PHONY : gates/OrGate.cpp.o
+
+gates/OrGate.i: gates/OrGate.cpp.i
+.PHONY : gates/OrGate.i
+
+# target to preprocess a source file
+gates/OrGate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.i
+.PHONY : gates/OrGate.cpp.i
+
+gates/OrGate.s: gates/OrGate.cpp.s
+.PHONY : gates/OrGate.s
+
+# target to generate assembly for a file
+gates/OrGate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/OrGate.cpp.s
+.PHONY : gates/OrGate.cpp.s
+
+gates/XnorGate.o: gates/XnorGate.cpp.o
+.PHONY : gates/XnorGate.o
+
+# target to build an object file
+gates/XnorGate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.o
+.PHONY : gates/XnorGate.cpp.o
+
+gates/XnorGate.i: gates/XnorGate.cpp.i
+.PHONY : gates/XnorGate.i
+
+# target to preprocess a source file
+gates/XnorGate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.i
+.PHONY : gates/XnorGate.cpp.i
+
+gates/XnorGate.s: gates/XnorGate.cpp.s
+.PHONY : gates/XnorGate.s
+
+# target to generate assembly for a file
+gates/XnorGate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/XnorGate.cpp.s
+.PHONY : gates/XnorGate.cpp.s
+
+gates/XorGate.o: gates/XorGate.cpp.o
+.PHONY : gates/XorGate.o
+
+# target to build an object file
+gates/XorGate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.o
+.PHONY : gates/XorGate.cpp.o
+
+gates/XorGate.i: gates/XorGate.cpp.i
+.PHONY : gates/XorGate.i
+
+# target to preprocess a source file
+gates/XorGate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.i
+.PHONY : gates/XorGate.cpp.i
+
+gates/XorGate.s: gates/XorGate.cpp.s
+.PHONY : gates/XorGate.s
+
+# target to generate assembly for a file
+gates/XorGate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLDSimulator.dir/build.make CMakeFiles/DLDSimulator.dir/gates/XorGate.cpp.s
+.PHONY : gates/XorGate.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -290,6 +506,33 @@ help:
 	@echo "... DLDSimulator_autogen/mocs_compilation.o"
 	@echo "... DLDSimulator_autogen/mocs_compilation.i"
 	@echo "... DLDSimulator_autogen/mocs_compilation.s"
+	@echo "... Pin/Pin.o"
+	@echo "... Pin/Pin.i"
+	@echo "... Pin/Pin.s"
+	@echo "... gates/AndGate.o"
+	@echo "... gates/AndGate.i"
+	@echo "... gates/AndGate.s"
+	@echo "... gates/Gate.o"
+	@echo "... gates/Gate.i"
+	@echo "... gates/Gate.s"
+	@echo "... gates/NandGate.o"
+	@echo "... gates/NandGate.i"
+	@echo "... gates/NandGate.s"
+	@echo "... gates/NorGate.o"
+	@echo "... gates/NorGate.i"
+	@echo "... gates/NorGate.s"
+	@echo "... gates/NotGate.o"
+	@echo "... gates/NotGate.i"
+	@echo "... gates/NotGate.s"
+	@echo "... gates/OrGate.o"
+	@echo "... gates/OrGate.i"
+	@echo "... gates/OrGate.s"
+	@echo "... gates/XnorGate.o"
+	@echo "... gates/XnorGate.i"
+	@echo "... gates/XnorGate.s"
+	@echo "... gates/XorGate.o"
+	@echo "... gates/XorGate.i"
+	@echo "... gates/XorGate.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,29 +1,127 @@
 #include "AndGate.h"
+#include "../Pin/Pin.h"
 #include <QPainter>
 
-AndGate::AndGate(QGraphicsItem *parent) :Gate(parent) {
+AndGate::AndGate(QGraphicsItem* parent)
+    : Gate(parent)
+{
+    // Create two input pins
+    inputPins.push_back(new Pin(this, true));
+    inputPins.push_back(new Pin(this, true));
+
+    // Create one output pin
+    outputPins.push_back(new Pin(this, false));
+
+    // Set their initial positions
+    updatePinPositions();
 }
 
-QPainterPath AndGate::getPath() const {
+void AndGate::updatePinPositions()
+{
+    /*
+        Input pins:
+        25 pixels to the left of the gate body.
+
+        Their vertical positions are proportional
+        to the gate height.
+
+        Output pin:
+        24 pixels to the right of the gate body.
+    */
+
+    inputPins[0]->setPosition(
+        QPointF(-25, height * 0.25)
+    );
+
+    inputPins[1]->setPosition(
+        QPointF(-25, height * 0.75)
+    );
+
+    outputPins[0]->setPosition(
+        QPointF(width + 24, height * 0.5)
+    );
+}
+
+QPainterPath AndGate::getPath() const
+{
     QPainterPath path;
+
     path.moveTo(0, 0);
-    path.lineTo(50, 0);
-    path.cubicTo(85, 0, 100, 15, 100, 30);
-    path.cubicTo(100, 45, 85, 60, 50, 60);
-    path.lineTo(0, 60);
+
+    path.lineTo(width * 0.5, 0);
+
+    path.cubicTo(
+        width * 0.85, 0,
+        width, height * 0.25,
+        width, height * 0.5
+    );
+
+    path.cubicTo(
+        width, height * 0.75,
+        width * 0.85, height,
+        width * 0.5, height
+    );
+
+    path.lineTo(0, height);
+
     path.closeSubpath();
+
     return path;
 }
-void AndGate::paint(QPainter *painter,
-                    const QStyleOptionGraphicsItem *,
-                    QWidget *) {
+
+void AndGate::paint(QPainter* painter,
+                    const QStyleOptionGraphicsItem*,
+                    QWidget*)
+{
     painter->setPen(Qt::black);
     painter->setBrush(Qt::white);
+
+    // Draw AND gate body
     painter->drawPath(getPath());
-    painter->drawLine(-20, 15, 0, 15);
-    painter->drawLine(-20, 45, 0, 45);
-    painter->drawLine(100, 30, 120, 30);
-    painter->drawEllipse(-29, 11, 8, 8);
-    painter->drawEllipse(-29, 41, 8, 8);
-    painter->drawEllipse(120, 26, 8, 8);
+
+    // Input lines
+    painter->drawLine(
+        -20,
+        height * 0.25,
+        0,
+        height * 0.25
+    );
+
+    painter->drawLine(
+        -20,
+        height * 0.75,
+        0,
+        height * 0.75
+    );
+
+    // Output line
+    painter->drawLine(
+        width,
+        height * 0.5,
+        width + 20,
+        height * 0.5
+    );
+
+    // Input pin circles
+    painter->drawEllipse(
+        -29,
+        height * 0.25 - 4,
+        8,
+        8
+    );
+
+    painter->drawEllipse(
+        -29,
+        height * 0.75 - 4,
+        8,
+        8
+    );
+
+    // Output pin circle
+    painter->drawEllipse(
+        width + 20,
+        height * 0.5 - 4,
+        8,
+        8
+    );
 }
